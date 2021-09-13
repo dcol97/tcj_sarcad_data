@@ -9,7 +9,7 @@ Instructions for running the experiments:
 ```
 git clone -b journal https://github.com/qantik/ratcheted.git
 ```
-- The README file contains the following: "The bench directory within each package [i.e. the packages acd, dv, jmm, js and pr] contains the runtime, message and state size benchmarks which can be run by simply executing the main.go file". We will need to edit some of the main.go files a bit to run all experiments. In order to execute the main.go file, you should run the following in the relevant directory (e.g. /dv/bench:
+- The README file contains the following: "The bench directory within each package [i.e. the packages acd, dv, jmm, js and pr] contains the runtime, message and state size benchmarks which can be run by simply executing the main.go file". We will need to edit some of the main.go files a bit to run all experiments. In order to execute the main.go file, you should run the following in the relevant directory (e.g. /dv/bench):
 
 ```
 go run *.go
