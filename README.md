@@ -1,9 +1,9 @@
-Experiment files:
+##Experiment files:
 - alt.csv corresponds to the figure titled "Alternating traffic";
 - uni.csv corresponds to the figure titled "Unidirectional traffic";
 - def-uni.csv corresponds to the figure titled "Deferred unidirectional traffic".
 
-Instructions for running the experiments:
+##Instructions for running the experiments:
 - Download and checkout the branch 'journal' [here](https://github.com/qantik/ratcheted/tree/journal) and follow the instructions to install dependencies (commit digest de659d80a9ecdf353a2acd44e2efea3196851364). You can do this by running:
 
 ```
@@ -14,7 +14,7 @@ git clone -b journal https://github.com/qantik/ratcheted.git
 ```
 go run *.go
 ```
-- Vary the second argument of ```time(arcad, time_alt)``` with ```time_uni``` and ```time_def``` to run all three types of experiments for a given scheme (in this case arcad). ```time(time_uni)``` e.g. may appear as ```size(size_uni)``` in a ```main.go``` file, which can be changed; ```size(..)``` obtains benchmarking information corresponding to variable sizes.
+- Vary the second argument of ```time(arcad, time_alt)``` with ```time_uni``` and ```time_def``` to run all three types of experiments for a given scheme (in this case arcad). ```time(time_uni)``` e.g. may appear as ```size(size_uni)``` in a particular ```main.go``` file, which can be changed; ```size(..)``` obtains benchmarking information corresponding to variable sizes.
 - The first argument of ```time(..)```, which is ```arcad``` above, can be varied as follows:
 	- ```arcad = dv.NewARCAD(..)``` corresponds to ARCAD-DV;
 	- ```lite = dv.NewLiteARCAD(..)``` corresponds to liteARCAD;
