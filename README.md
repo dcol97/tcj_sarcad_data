@@ -9,7 +9,7 @@ Instructions for running the experiments:
 ```
 git clone -b journal github.com/qantik/ratcheted
 ```
-- The README file contains the following: "The bench directory within each package contains the runtime, message and state size benchmarks which can be run by simply executing the main.go file". We will need to edit some of the main.go files a bit to run all experiments.
+- The README file contains the following: "The bench directory within each package [i.e. the packages acd, dv, jmm, js and pr] contains the runtime, message and state size benchmarks which can be run by simply executing the main.go file". We will need to edit some of the main.go files a bit to run all experiments.
 - Vary the second argument of ```time(arcad, time_alt)``` with ```time_uni``` and ```time_def``` to run all three types of experiments for a given scheme (in this case arcad). ```time``` may appear as ```size``` in a ```main.go``` file, which can be changed; ```size``` obtains benchmarking information corresponding to variable sizes.
 - The first argument can be varied as follows:
 	- ```arcad = dv.NewARCAD(..)``` corresponds to ARCAD-DV;
