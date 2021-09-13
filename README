@@ -12,7 +12,7 @@ Instructions for running the experiments:
 -- 'lite = dv.NewLiteARCAD(..)' corresponds to liteARCAD;
 -- 'sarcad = dv.NewSARCAD(gcm, aes, isOTEAE)' corresponds to the EtH when isOTEAE is false and EtUK when isOTEAE is true.
 - The remaining benchmarks can be performed in:
--- /acd/bench for ACD and ACD-PK (using variable dr for ACD and drpk for drpk)
--- /pr/bench for PR
--- /js/bench for JS
--- /jmm/bench for JMM
+-- /acd/bench for ACD and ACD-PK (using variable dr for ACD and drpk for drpk);
+-- /jmm/bench for JMM;
+-- /js/bench for JS;
+-- /pr/bench for PR.
