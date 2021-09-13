@@ -14,7 +14,7 @@ git clone -b journal https://github.com/qantik/ratcheted.git
 ```
 go run *.go
 ```
-- Vary the second argument of ```time(arcad, time_alt)``` with ```time_uni``` and ```time_def``` to run all three types of experiments for a given scheme (in this case arcad). ```time``` may appear as ```size``` in a ```main.go``` file, which can be changed; ```size``` obtains benchmarking information corresponding to variable sizes.
+- Vary the second argument of ```time(arcad, time_alt)``` with ```time_uni``` and ```time_def``` to run all three types of experiments for a given scheme (in this case arcad). ```time(time_uni)``` e.g. may appear as ```size(size_uni)``` in a ```main.go``` file, which can be changed; ```size(..)``` obtains benchmarking information corresponding to variable sizes.
 - The first argument can be varied as follows:
 	- ```arcad = dv.NewARCAD(..)``` corresponds to ARCAD-DV;
 	- ```lite = dv.NewLiteARCAD(..)``` corresponds to liteARCAD;
