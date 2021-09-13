@@ -1,9 +1,9 @@
-##Experiment files:
+## Experiment files:
 - alt.csv corresponds to the figure titled "Alternating traffic";
 - uni.csv corresponds to the figure titled "Unidirectional traffic";
 - def-uni.csv corresponds to the figure titled "Deferred unidirectional traffic".
 
-##Instructions for running the experiments:
+## Instructions for running the experiments:
 - Download and checkout the branch 'journal' [here](https://github.com/qantik/ratcheted/tree/journal) and follow the instructions to install dependencies (commit digest de659d80a9ecdf353a2acd44e2efea3196851364). You can do this by running:
 
 ```
